@@ -1,0 +1,58 @@
+.classes-page {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .whole{
+    background-image: url('/src/assets/images/mainback.jpg');
+    background-size: cover;
+  }
+  
+  .class-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .class-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .class-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .class-card p {
+    margin: 10px 0;
+  }
+  
+  .class-card p strong {
+    font-weight: bold;
+  }
+  .class-card button {
+    position: absolute; 
+    bottom: 20px; /* Adjust the distance from the bottom */
+    left: 50%; /* Center the button horizontally */
+    transform: translateX(-155%); /* Center the button horizontally */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: green; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Apply border radius */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .class-card button:hover {
+    background-color: green; /* Change background color on hover */
+  }

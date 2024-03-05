@@ -1,0 +1,25 @@
+
+.slot-selector {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .slot-list {
+    margin-top: 1%;
+    flex-wrap: wrap;
+  }
+  
+  .slot-list button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .slot-list button:hover {
+    background-color: green;
+  }
+  
